@@ -1,0 +1,22 @@
+print("Enter 5 numbers you want to store in the list")
+n1=int(input())
+n2=int(input())
+n3=int(input())
+n4=int(input())
+n5=int(input())
+print()
+
+ls=[n1,n2,n3,n4,n5]
+print("Elements Present In The List Are :",ls)
+print("1. Sum Of All The Elements In The List :",sum(ls))
+print("2. Smallest Number In The List :",min(ls))
+print("3. Largest Number In The List :",max(ls))
+ls.sort()
+print("4. List In Ascending Order :",ls)
+ls.reverse()
+print("5. List In Descending Order :",ls)
+tuple1=tuple(ls)
+print("6. List After Coversion Into Tuple :",tuple1)
+ls.clear()
+print("7. List Deleted: ",ls)
+
